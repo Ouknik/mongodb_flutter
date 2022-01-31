@@ -197,8 +197,7 @@ class _QRScannerState extends State<QRScanner> with TickerProviderStateMixin {
               }
             }
             //https://qrco.de/bcjZe2
-            print(
-                'is not exite bbbbbbbbbbbbbbbbbbbbbbbbbbbb ${this.barcode!.code.toString()}');
+            Get.snackbar('Error', 'None within the database');
           }
         }));
   }
